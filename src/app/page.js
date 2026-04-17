@@ -43,13 +43,18 @@ export default function Home() {
         </div>
 
         <div className="hero-panel">
-          <div className="avatar-orb">
-            <span>{profile.name.charAt(0)}</span>
+          <div className="avatar-orb avatar-photo-wrap">
+            <img
+              className="avatar-photo"
+              src={profile.image}
+              alt={profile.name}
+            />
           </div>
           <div className="hero-meta">
             <p className="meta-label">Name</p>
             <h2>{profile.name}</h2>
             <p className="meta-role">{profile.role}</p>
+            <p className="meta-location">{profile.location}</p>
             <p className="meta-note">{profile.availability}</p>
           </div>
         </div>
@@ -57,7 +62,7 @@ export default function Home() {
 
       <section className="highlight-grid">
         {highlights.map((item) => (
-          <article className="glass-card" key={item.label}>
+          <article className="glass-card highlight-card" key={item.label}>
             <p>{item.label}</p>
             <h3>{item.value}</h3>
           </article>
