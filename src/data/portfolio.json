@@ -1,0 +1,90 @@
+{
+  "profile": {
+    "name": "Avijit Ghosh",
+    "role": "Full Stack Developer",
+    "eyebrow": "Laravel, Vue, Next.js, product-focused web development",
+    "headline": "I build practical web products with strong backend logic and clean frontend experiences.",
+    "summary": "I enjoy building full stack applications that are useful in the real world, especially e-commerce systems, dashboards, portfolio sites, workflow-heavy platforms, and API-backed products. My style leans practical, fast-moving, and maintainable.",
+    "email": "avighoshjit567@gmail.com",
+    "links": {
+      "github": "https://github.com/avighoshjit567",
+      "linkedin": "https://www.linkedin.com/in/avijit-ghosh-avi"
+    },
+    "availability": "Open to full stack product work, portfolio projects, and business web apps."
+  },
+  "highlights": [
+    {
+      "label": "Core stack",
+      "value": "Laravel, PHP, Vue, JavaScript, TypeScript, Next.js"
+    },
+    {
+      "label": "What I build",
+      "value": "Commerce systems, dashboards, admin panels, and portfolio websites"
+    },
+    {
+      "label": "Work style",
+      "value": "Practical, maintainable, and focused on shipping real features"
+    }
+  ],
+  "skillGroups": [
+    {
+      "title": "Backend",
+      "items": ["PHP", "Laravel", "REST APIs", "Validation", "MySQL", "Business logic"]
+    },
+    {
+      "title": "Frontend",
+      "items": ["Vue", "Next.js", "JavaScript", "TypeScript", "Blade", "Responsive UI"]
+    },
+    {
+      "title": "Workflow",
+      "items": ["Git", "GitHub", "GitHub Actions", "Static deployment", "Code cleanup", "Feature delivery"]
+    }
+  ],
+  "projects": [
+    {
+      "title": "BideshiBazar 2.0",
+      "description": "A large commerce platform with customer, seller, admin, order, and payment flows. The kind of project where architecture, correctness, and operational details matter.",
+      "stack": ["Laravel", "Blade", "JavaScript", "CSS", "PHP"],
+      "links": [],
+      "note": "Private product repo"
+    },
+    {
+      "title": "Job Web App",
+      "description": "A job-focused web application with structured frontend and backend flows, combining product logic with dashboard-style UX.",
+      "stack": ["JavaScript", "PHP", "Blade"],
+      "links": [
+        {
+          "label": "Repository",
+          "url": "https://github.com/avighoshjit567/job-web-app"
+        }
+      ]
+    },
+    {
+      "title": "Next.js Portfolio App",
+      "description": "A modern frontend portfolio build used as the base for this GitHub Pages-ready static portfolio experience.",
+      "stack": ["Next.js", "React", "CSS"],
+      "links": [
+        {
+          "label": "Repository",
+          "url": "https://github.com/avighoshjit567/nextjs-portfolio-app"
+        }
+      ]
+    },
+    {
+      "title": "Emoji Sentiment Analyzer",
+      "description": "A smaller experimental project that shows I also enjoy compact, idea-driven builds, not only larger business systems.",
+      "stack": ["PHP", "Blade"],
+      "links": [
+        {
+          "label": "Repository",
+          "url": "https://github.com/avighoshjit567/emoji-sentiment-analyzer"
+        }
+      ]
+    }
+  ],
+  "principles": [
+    "Write code that can be understood later, not just code that works right now.",
+    "Ship useful features quickly without letting the codebase become fragile.",
+    "Treat backend structure and frontend experience as one product, not two separate jobs."
+  ]
+}
